@@ -56,6 +56,7 @@ Thuật toán:
 
 ### Cách 1: Chạy trực tiếp
 # Clone hoặc download project
+```bash
 git clone https://github.com/thanhtam712/CS112_Ruler_Making.git
 cd CS112_Ruler_Making
 
@@ -63,17 +64,21 @@ cd CS112_Ruler_Making
 open index.html  # macOS
 start index.html # Windows
 xdg-open index.html # Linux
-
+```
 ### Cách 2: Sử dụng Live Server
 # Với VS Code + Live Server extension
 # Right-click index.html → "Open with Live Server"
 
 # Hoặc sử dụng Python
+```bash
 python -m http.server 8000
+```
 # Truy cập: http://localhost:8000
 
 # Hoặc sử dụng Node.js
+```bash
 npx http-server
+```
 # Truy cập: http://localhost:8080
 
 ### Cách 3: Deploy online
