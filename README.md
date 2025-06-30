@@ -101,11 +101,11 @@ Truy cập: http://localhost:8080
 - **Đánh giá** tính thẩm mỹ và thực dụng
 
 ### 🏗️ Cấu trúc project
-
+```bash
 CS112_Ruler_Making/
 ├── index.html          # Cấu trúc HTML chính
 ├── styles.css          # Styling và responsive design  
 ├── script.js           # Logic và thuật toán
 └── README.md           # Tài liệu này
-
+```
 ⭐ **Nếu project này hữu ích, hãy cho một star!** ⭐
