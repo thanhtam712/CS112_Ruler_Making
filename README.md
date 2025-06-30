@@ -1,14 +1,14 @@
-# Ruler Marking Web Demo
+## Ruler Marking Web Demo
 
 Ứng dụng web mô phỏng cách chia vạch trên thước đo sử dụng các thuật toán đánh dấu vạch chia khác nhau. Phù hợp cho việc học toán, dạy học và kiểm chứng các ý tưởng thuật toán.
 
-## 🎯 Mục tiêu
+### 🎯 Mục tiêu
 
 - **Giáo dục**: Hỗ trợ việc dạy và học các khái niệm về chia tỷ lệ, đo lường
 - **Trực quan hóa**: Giúp hiểu rõ cách hoạt động của các thuật toán đánh dấu
 - **Nghiên cứu**: Kiểm chứng và so sánh hiệu quả của các phương pháp khác nhau
 
-## ✨ Tính năng chính
+### ✨ Tính năng chính
 
 ### 🔧 Điều khiển linh hoạt
 - **Chiều dài thước**: 1-100cm với bước nhảy 0.5cm
@@ -47,15 +47,15 @@ Thuật toán:
    - ...
 3. Dừng khi step < minDivision
 
-## 🚀 Cài đặt và sử dụng
+### 🚀 Cài đặt và sử dụng
 
-### Yêu cầu hệ thống
+#### Yêu cầu hệ thống
 - **Trình duyệt**: Chrome 60+, Firefox 55+, Safari 12+, Edge 79+
 - **JavaScript**: ES6+ support
 - **SVG**: Hỗ trợ SVG 1.1
 
-### Cách 1: Chạy trực tiếp
-# Clone hoặc download project
+#### Cách 1: Chạy trực tiếp
+##### Clone hoặc download project
 ```bash
 git clone https://github.com/thanhtam712/CS112_Ruler_Making.git
 cd CS112_Ruler_Making
@@ -65,45 +65,42 @@ open index.html  # macOS
 start index.html # Windows
 xdg-open index.html # Linux
 ```
-### Cách 2: Sử dụng Live Server
-# Với VS Code + Live Server extension
-# Right-click index.html → "Open with Live Server"
-
-# Hoặc sử dụng Python
+#### Cách 2: Sử dụng Live Server
+##### Với VS Code + Live Server extension Right-click index.html → "Open with Live Server"
+##### Hoặc sử dụng Python
 ```bash
 python -m http.server 8000
 ```
-# Truy cập: http://localhost:8000
-
-# Hoặc sử dụng Node.js
+Truy cập: http://localhost:8000
+##### Hoặc sử dụng Node.js
 ```bash
 npx http-server
 ```
-# Truy cập: http://localhost:8080
+Truy cập: http://localhost:8080
 
-### Cách 3: Deploy online
+#### Cách 3: Deploy online
 - **GitHub Pages**: Push code lên GitHub và enable Pages
 - **Netlify**: Drag & drop folder vào netlify.com
 - **Vercel**: Import project từ GitHub
 
-## 📖 Hướng dẫn sử dụng
+### 📖 Hướng dẫn sử dụng
 
-### Bước 1: Cài đặt thông số
+#### Bước 1: Cài đặt thông số
 1. **Nhập chiều dài thước** (1-100cm)
 2. **Chọn độ chia nhỏ nhất** từ dropdown
 3. **Chọn kiểu đánh dấu** (Standard/Recursive/Binary)
 
-### Bước 2: Vẽ thước
+#### Bước 2: Vẽ thước
 1. Nhấn nút **"Vẽ thước đo"**
 2. Xem kết quả SVG hiển thị bên dưới
 3. Sử dụng nút **"Xóa"** để reset
 
-### Bước 3: Phân tích kết quả
+#### Bước 3: Phân tích kết quả
 - **Quan sát** sự khác biệt giữa các thuật toán
 - **So sánh** mật độ vạch chia
 - **Đánh giá** tính thẩm mỹ và thực dụng
 
-## 🏗️ Cấu trúc project
+### 🏗️ Cấu trúc project
 
 CS112_Ruler_Making/
 ├── index.html          # Cấu trúc HTML chính
