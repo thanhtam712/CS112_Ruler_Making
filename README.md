@@ -24,25 +24,20 @@
 ### 🧮 Thuật toán được hỗ trợ
 
 #### 1. **Thước chuẩn (Standard)**
-\`\`\`
 Quy tắc: Vạch chia theo thước đo thông thường
 - Vạch lớn: Mỗi cm (35px)
 - Vạch trung: Mỗi 0.5cm (25px)  
 - Vạch nhỏ: Mỗi 0.25cm (20px)
 - Vạch mini: Mỗi 0.1cm (15px)
-\`\`\`
 
 #### 2. **Đệ quy - Divide & Conquer**
-\`\`\`
 Thuật toán:
 1. Đánh dấu hai đầu thước (0 và length)
 2. Tìm điểm giữa: mid = (start + end) / 2
 3. Đệ quy cho [start, mid] và [mid, end]
 4. Dừng khi khoảng cách ≤ minDivision
-\`\`\`
 
 #### 3. **Chia nhị phân (Binary Division)**
-\`\`\`
 Thuật toán:
 1. Đánh dấu các vạch cm chính
 2. Chia mỗi cm theo lũy thừa của 2:
@@ -51,7 +46,6 @@ Thuật toán:
    - Level 3: 1/8 (0.125cm)
    - ...
 3. Dừng khi step < minDivision
-\`\`\`
 
 ## 🚀 Cài đặt và sử dụng
 
@@ -61,19 +55,16 @@ Thuật toán:
 - **SVG**: Hỗ trợ SVG 1.1
 
 ### Cách 1: Chạy trực tiếp
-\`\`\`bash
 # Clone hoặc download project
-git clone https://github.com/your-username/ruler-marking-demo.git
-cd ruler-marking-demo
+git clone https://github.com/thanhtam712/CS112_Ruler_Making.git
+cd CS112_Ruler_Making
 
 # Mở file index.html trong trình duyệt
 open index.html  # macOS
 start index.html # Windows
 xdg-open index.html # Linux
-\`\`\`
 
 ### Cách 2: Sử dụng Live Server
-\`\`\`bash
 # Với VS Code + Live Server extension
 # Right-click index.html → "Open with Live Server"
 
@@ -84,7 +75,6 @@ python -m http.server 8000
 # Hoặc sử dụng Node.js
 npx http-server
 # Truy cập: http://localhost:8080
-\`\`\`
 
 ### Cách 3: Deploy online
 - **GitHub Pages**: Push code lên GitHub và enable Pages
@@ -110,12 +100,10 @@ npx http-server
 
 ## 🏗️ Cấu trúc project
 
-\`\`\`
-ruler-marking-demo/
+CS112_Ruler_Making/
 ├── index.html          # Cấu trúc HTML chính
 ├── styles.css          # Styling và responsive design  
 ├── script.js           # Logic và thuật toán
 └── README.md           # Tài liệu này
-\`\`\`
 
 ⭐ **Nếu project này hữu ích, hãy cho một star!** ⭐
